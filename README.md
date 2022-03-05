@@ -1,3 +1,5 @@
+<img src="branding/screenshot.png" alt="The WoL Redirector website if the server is currently not reachable">
+
 # php-wol-redirector
 
 Sends a WOL packet to the specified host on website request and redirects to the hosted website after a timeout.
