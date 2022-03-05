@@ -26,6 +26,8 @@ if (isset($dest)) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex, nofollow">
@@ -33,9 +35,17 @@ if (isset($dest)) {
         <meta http-equiv="refresh" content="<?= $timeout ?>"/>
     <?php endif; ?>
 
-    <title>Check Homeserver Response</title>
+    <title><?= isset($dest) ? "Server is starting" : "No destination" ?></title>
 
     <link href="index.css" type="text/css" rel="stylesheet">
+
+    <!-- favicon support -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=3jkrji349">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=3jkrji349">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=3jkrji349">
+    <link rel="manifest" href="/site.webmanifest?v=3jkrji349">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg?v=3jkrji349" color="#0092bb">
+    <link rel="shortcut icon" href="/favicon.ico?v=3jkrji349">
 
     <script>
         'use strict';
