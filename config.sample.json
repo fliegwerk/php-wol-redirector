@@ -3,5 +3,6 @@
     "mac": "AA:BB:CC:DD:EE:FF",
     "ip": "192.168.0.2"
   },
-  "timeout": 5
+  "timeout": 5,
+  "details": false
 }
