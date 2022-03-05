@@ -1,0 +1,6 @@
+# IDE configs
+.idea
+.vscode
+
+# app config
+config.json
