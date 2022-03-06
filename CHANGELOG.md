@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://github.com/fliegwerk/php-wol-redirector/compare/v0.1.0...v0.1.1) (2022-03-06)
+
+
+### Bug Fixes
+
+* Fix `.htaccess` configuration ([5f47daa](https://github.com/fliegwerk/php-wol-redirector/commit/5f47daaeca1712ae5768c8b321e3116f5e262a15))
+
 ## 0.1.0 (2022-03-05)
 
 
