@@ -1,5 +1,12 @@
+Options -Indexes
+
 Order allow,deny
 Deny from all
-<FilesMatch ^(index\.php)?$>
-  Allow from all
+
+<FilesMatch "^(browserconfig\.xml|site\.webmanifest|.+\.(css|svg|png|ico)|(index\.php)?|)$">
+    allow from 127.0.0.1
+    # Only allow from local IPs:
+    allow from 10.0.0.0/255.0.0.0
+    allow from 172.16.0.0/255.240.0.0
+    allow from 192.168.0.0/255.255.0.0
 </FilesMatch>
