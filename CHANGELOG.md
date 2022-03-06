@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/fliegwerk/php-wol-redirector/compare/v0.1.2...v0.2.0) (2022-03-06)
+
+
+### Features
+
+* Fix WoL not sent because of missing ARP entry and add more log output ([90c5152](https://github.com/fliegwerk/php-wol-redirector/commit/90c515236e42d2111bfa57433ea3fb84a1d510fc))
+
 ### [0.1.2](https://github.com/fliegwerk/php-wol-redirector/compare/v0.1.1...v0.1.2) (2022-03-06)
 
 
