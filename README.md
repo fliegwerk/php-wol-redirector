@@ -14,9 +14,10 @@ Sends a WOL packet to the specified host on website request and redirects to the
 
 ## `config.json` definition
 
-| Key        | Description                                                                      |
-|------------|----------------------------------------------------------------------------------|
-| `host.mac` | The MAC address of the adapter that you want to wake (get it with `ip addr`)     |
-| `host.ip`  | The IP address of the device you want to wake (only used for routing)            |
-| `timeout`  | The timeout between refreshes in the browser (`0` disables automatic refreshing) |
-| `details`  | Show details to the client (e.g. try count, destination url, etc.)               |
+| Key        | Description                                                                                 |
+|------------|---------------------------------------------------------------------------------------------|
+| `host.mac` | The MAC address of the adapter that you want to wake (get it with `ip addr`)                |
+| `host.ip`  | The IP address of the device you want to wake (only used for ICMP ping)                     |
+| `timeout`  | The timeout between refreshes in the browser (`0` disables automatic refreshing)            |
+| `details`  | Show details to the client (e.g. try count, destination url, etc.)                          |
+| `log`      | When `true` write log messages via the `error_log` function for debugging output (optional) |
