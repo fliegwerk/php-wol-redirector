@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.1.2](https://github.com/fliegwerk/php-wol-redirector/compare/v0.1.1...v0.1.2) (2022-03-06)
+
+
+### Bug Fixes
+
+* Convert absolute links to relative links ([c7131b7](https://github.com/fliegwerk/php-wol-redirector/commit/c7131b76b742eae35647ad8a1251e7c0c3c68483))
+* Remove absolute paths and replace with runtime determined full paths via `command -v` ([9164b44](https://github.com/fliegwerk/php-wol-redirector/commit/9164b44f4133196e6392d91993f9b6f6c4ea8e06))
+
 ### [0.1.1](https://github.com/fliegwerk/php-wol-redirector/compare/v0.1.0...v0.1.1) (2022-03-06)
 
 
